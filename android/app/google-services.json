@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "996313656381",
+    "project_id": "uixmain",
+    "storage_bucket": "uixmain.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996313656381:android:a91eea208b94b9700d0e54",
+        "android_client_info": {
+          "package_name": "com.example.logininfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyGOcY-hjnIUJK9Lr1ChocKd8zGVjXZvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
