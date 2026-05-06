@@ -16,9 +16,38 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Firebase Auth Demo',
-      theme: ThemeData(primarySwatch: Colors.blue),
+
+      theme: ThemeData(
+          primarySwatch: Colors.blue ,
+
+      ),
       home: AuthScreen(),
       debugShowCheckedModeBanner: false,
+    );
+  }
+}
+class gggg extends StatefulWidget {
+  const gggg({super.key});
+
+  @override
+  State<gggg> createState() => _ggggState();
+}
+
+class _ggggState extends State<gggg> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body:
+      Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(colors:[
+            Colors.green ,
+            Colors.greenAccent,
+            Colors.lightGreen ,
+          ],
+          )
+        ),
+      ),
     );
   }
 }
